@@ -12,10 +12,11 @@
   margin-right: 20px;
 }
 .header-text {
-  font-size: 2.5em;
+  font-size: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .header-text-secondary {
@@ -32,7 +33,6 @@
   color: #241e92;
 }
 .menu {
-  margin-left: 2rem;
   padding: 0.5em;
   list-style-type: none;
   font-size: large;
@@ -73,13 +73,13 @@
   border: 1px solid #241e92;
   border-radius: 0.5em;
   margin: auto;
-  margin-top: -2.2%;
+  margin-top: -3%;
 }
 
 .card {
   padding: 2rem;
   justify-content: space-between;
-  height: 80%;
+  height: 25rem;
   width: 70%;
   border: 5px solid #241e92;
   border-radius: 0.5em;
@@ -89,7 +89,8 @@
     url("../../Assests/Images/Cloud\ sync-amico\ 1.svg");
   background-position: left top, right bottom;
   background-repeat: no-repeat, no-repeat;
-  background-size: contain, 28%;
+  background-size: contain, 35%;
+  background-position-y: center;
 }
 .logo {
   height: 6rem;
