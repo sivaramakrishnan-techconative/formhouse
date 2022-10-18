@@ -1,0 +1,124 @@
+.menu-bar {
+  width: 100%;
+}
+.header {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-list {
+  font-weight: 550;
+  flex-wrap: nowrap;
+  margin-right: 20px;
+}
+.header-text {
+  font-size: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text-secondary {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.bor {
+  border: red 10px solid;
+}
+
+.text-highlight {
+  color: #241e92;
+}
+.menu {
+  margin-left: 2rem;
+  padding: 0.5em;
+  list-style-type: none;
+  font-size: large;
+  font-weight: bold;
+}
+.three-dot {
+  height: 0.6rem;
+  width: 0.6rem;
+  background-color: #7b6cf6;
+  border-radius: 50%;
+}
+.text-box {
+  margin-left: -5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 10rem;
+  background-color: #ffffff;
+  border-radius: 00.5em;
+}
+.text-editor-header {
+  height: 3em;
+  width: 100%;
+  background-color: #eef1f4;
+  border-radius: 00.5em;
+}
+.text-editor-body {
+  width: 100%;
+  border-radius: 00.5em;
+  background-color: #040051;
+}
+.text-editor {
+  justify-content: space-between;
+  height: 11rem;
+  width: 50%;
+  min-width: 280px;
+  border: 1px solid #241e92;
+  border-radius: 0.5em;
+  margin: auto;
+  margin-top: -2.2%;
+}
+
+.card {
+  padding: 2rem;
+  justify-content: space-between;
+  height: 80%;
+  width: 70%;
+  border: 5px solid #241e92;
+  border-radius: 0.5em;
+  margin: auto;
+  margin-top: 3%;
+  background-image: url("../../Assests/Images/Group.svg"),
+    url("../../Assests/Images/Cloud\ sync-amico\ 1.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, 28%;
+}
+.logo {
+  height: 6rem;
+  width: 15em;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.btn-gs {
+  background-color: #241e92;
+  color: white;
+  font-size: medium;
+  border-radius: 10px;
+  height: 3rem;
+  width: 8rem;
+  cursor: pointer;
+}
+.btn-r {
+  cursor: pointer;
+  background-color: white;
+  font-size: medium;
+  border-color: #241e92;
+  color: black;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 10px;
+}
