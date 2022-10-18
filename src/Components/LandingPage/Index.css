@@ -1,0 +1,20 @@
+.btn-active {
+  background-color: #241e92;
+  color: white;
+  width: 150px;
+  padding: 10px;
+}
+.btn-inactive {
+  color: #241e92;
+  background-color: white;
+  width: 150px;
+  padding: 10px;
+}  
+.img-content{    
+  border: #241E92 2px solid;
+  border-radius: 5px;
+}
+.content-footer{ 
+  border: #241E92 2px solid;
+  border-radius: 5px;
+}

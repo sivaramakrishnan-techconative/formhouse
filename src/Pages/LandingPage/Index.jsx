@@ -4,7 +4,8 @@ import Logo from "../../Assests/Images/Group 2757.svg";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Stack, Typography } from "@mui/material";
-import DropDownMenu from "../../Components/LPDD";
+import DropDownMenu from "../../Components/LandingPage/LPDD";
+import ExampleContent from "../../Components/LandingPage/ExampleContent";
 
 function LandingPage() {
   return (
@@ -111,11 +112,8 @@ function LandingPage() {
                 paddingLeft={2}
                 paddingTop={1}
               >
-                <Typography display={"flex"} flexWrap="wrap">
-                  {`<form action="https://formspree.io/f`}
-                </Typography>
-                <Typography display={"flex"} flexWrap="wrap">
-                  &nbsp;{`/{form_id}" method="post">`}
+                <Typography>
+                  {`<form action="https://formspree.io/f/{form_id}" method="post">`}
                 </Typography>
                 <Typography display={"flex"} flexWrap="wrap">
                   &nbsp;&nbsp;&nbsp;{`<label for="email">Your Email</label>`}
@@ -131,6 +129,33 @@ function LandingPage() {
               </Stack>
             </Grid>
           </Stack>
+        </Grid>
+      </Box>
+      <Box justifyContent={'center'} display={"flex"} className="body-stack">
+        <Grid container>
+          <Stack justifyContent={'center'} display={"flex"}>
+            <Grid xs={12} md={12}>
+              <Stack className="body-text">
+                <Stack className="body-text-1">
+                  Secure, easy to use and all essential
+                  <span className="text-highlight">&nbsp;features!</span>
+                </Stack>
+              </Stack>
+              <Stack>
+                <p className="body-text-2">
+                  A simple, no-code and complete Form solution for your next web
+                  project
+                </p>
+              </Stack>
+            </Grid>
+          </Stack>
+        </Grid>
+      </Box>
+      <Box className="body-stack">
+        <Grid container>
+          <Grid md={12}>
+            <ExampleContent />
+          </Grid>
         </Grid>
       </Box>
     </>

@@ -1,3 +1,22 @@
+.bor {
+  border: red 10px solid;
+}
+.card {
+  padding: 2rem;
+  justify-content: space-between;
+  height: 25rem;
+  width: 70%;
+  border: 5px solid #241e92;
+  border-radius: 0.5em;
+  margin: auto;
+  margin-top: 3%;
+  background-image: url("../../Assests/Images/Group.svg"),
+    url("../../Assests/Images/Cloud\ sync-amico\ 1.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, 35%;
+  background-position-y: center;
+}
 .menu-bar {
   width: 100%;
 }
@@ -12,23 +31,50 @@
   margin-right: 20px;
 }
 .header-text {
+  font-weight: 500;
   font-size: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .header-text-secondary {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
 }
-.bor {
-  border: red 10px solid;
-}
 
+.logo {
+  height: 6rem;
+  width: 15em;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.btn-gs {
+  background-color: #241e92;
+  color: white;
+  font-size: medium;
+  border-radius: 10px;
+  height: 3rem;
+  width: 8rem;
+  cursor: pointer;
+}
+.btn-r {
+  cursor: pointer;
+  background-color: white;
+  font-size: medium;
+  border-color: #241e92;
+  color: black;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 10px;
+}
 .text-highlight {
   color: #241e92;
 }
@@ -64,6 +110,7 @@
   width: 100%;
   border-radius: 00.5em;
   background-color: #040051;
+  word-wrap: break-word;
 }
 .text-editor {
   justify-content: space-between;
@@ -75,51 +122,57 @@
   margin: auto;
   margin-top: -3%;
 }
-
-.card {
-  padding: 2rem;
-  justify-content: space-between;
-  height: 25rem;
-  width: 70%;
-  border: 5px solid #241e92;
-  border-radius: 0.5em;
-  margin: auto;
-  margin-top: 3%;
-  background-image: url("../../Assests/Images/Group.svg"),
-    url("../../Assests/Images/Cloud\ sync-amico\ 1.svg");
-  background-position: left top, right bottom;
-  background-repeat: no-repeat, no-repeat;
-  background-size: contain, 35%;
-  background-position-y: center;
+.body-stack {
+  margin-top: 1em;
+  width: 100%;
 }
-.logo {
-  height: 6rem;
-  width: 15em;
-}
-.btns {
+.body-text {
   display: flex;
   align-items: center;
-  text-align: center;
   justify-content: center;
-  gap: 2rem;
 }
+.body-text-1 {
+  font-weight: 500;
+  font-size: 2em;  
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+.body-text-2 {
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  color: #57548e;
+}
+@media only screen and (max-width: 720px) {
+  .card {
+    padding: 2rem;
+    justify-content: space-between;
+    height: 25rem;
+    width: 70%;
+    border: 5px solid #241e92;
+    border-radius: 0.5em;
+    margin: auto;
+    margin-top: 3%;
+    background-image: url("../../Assests/Images/Group.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 
-.btn-gs {
-  background-color: #241e92;
-  color: white;
-  font-size: medium;
-  border-radius: 10px;
-  height: 3rem;
-  width: 8rem;
-  cursor: pointer;
-}
-.btn-r {
-  cursor: pointer;
-  background-color: white;
-  font-size: medium;
-  border-color: #241e92;
-  color: black;
-  height: 3rem;
-  width: 8rem;
-  border-radius: 10px;
+  .body-text-1 {
+    padding: 15px;
+    margin-top: 30%;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .body-stack {
+    margin: 3%;
+    width: 100%;
+  }
 }
